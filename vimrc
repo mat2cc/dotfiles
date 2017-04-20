@@ -18,9 +18,7 @@ set showcmd   " display incomplete commands
 set hlsearch  " highlight search matches
 
 " Powerline
-set  rtp+=/home/matthew/.local/lib/python2.7/site-packages/powerline/bindings/vim
-set laststatus=2
-set t_Co=256
+set rtp+=/vimfiles/bundle/powerline/powerline/bindings/vim
 
 set number 			      " show line numbers
 set relativenumber 		" relative numbers 
@@ -87,3 +85,5 @@ let g:NERDSpaceDelims = 1
 let g:NERDCompactSexyComs = 1
 let g:NERDDefaultAlign = 'left'
 let g:NERDCommentEmptyLines = 1
+
+
