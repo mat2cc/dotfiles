@@ -27,8 +27,11 @@ return {
           }
         end
     },
-    "nvim-treesitter/playground",
-    "nvim-treesitter/nvim-treesitter-context",
+    {
+        "nvim-treesitter/playground",
+        lazy = true
+    },
+    { "nvim-treesitter/nvim-treesitter-context" },
     -- {
     --     "Shougo/defx.nvim",
     --     build = ":UpdateRemotePlugins"

@@ -1,9 +1,11 @@
 return {
-    { "catppuccin/nvim",            name = "catppuccin", lazy = true },
-    { "morhetz/gruvbox",            lazy = true },
-    { "Shatur/neovim-ayu",          lazy = true },
-    { "folke/tokyonight.nvim",      lazy = true },
-    { "rebelot/kanagawa.nvim",      lazy = true,
+    { "catppuccin/nvim",       name = "catppuccin" },
+    { "morhetz/gruvbox", },
+    { "Shatur/neovim-ayu", },
+    { "folke/tokyonight.nvim", },
+    { "Mofiqul/dracula.nvim" },
+    {
+        "rebelot/kanagawa.nvim",
         opts = {
             colors = {
                 palette = {
@@ -15,9 +17,8 @@ return {
     {
         'rose-pine/neovim',
         name = 'rose-pine',
-        lazy = true,
         opts = { dark_variant = 'moon' } -- moon | main
-    },
+    }
 }
 
 -- catppuccin-latte, catppuccin-frappe, catppuccin-macchiato, catppuccin-mocha, catppuccin

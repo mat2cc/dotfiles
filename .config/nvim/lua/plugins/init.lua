@@ -1,7 +1,7 @@
 return {
     "christoomey/vim-tmux-navigator",
     "kyazdani42/nvim-web-devicons",
-    { "github/copilot.vim", lazy = false },
+    -- { "github/copilot.vim", lazy = false },
     {
         "kylechui/nvim-surround",
         version = "*", -- Use for stability; omit to use `main` branch for the latest features
