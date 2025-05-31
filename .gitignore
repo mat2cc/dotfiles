@@ -1,1 +1,6 @@
+# Fish
 **/fish_variables
+fishd.tmp.*
+.config/fish/functions
+.config/fish/completions
+.config/fish/conf.d
